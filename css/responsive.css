@@ -176,7 +176,64 @@
         gap: 20px;
     }
 }
+@media (min-width : 320px) and (max-width : 450px) {
+    .container {
+        padding: 0 15px;
+    }
 
+    .p-100 {
+        padding: 80px 0;
+    }
+
+    .w-30 {
+        width: 100%;
+    }
+
+    .w-50 {
+        width: 100% ;
+    }
+    .w-25{
+        width: 100%;
+    }
+    .content-box {
+        width: 100%;
+    }
+
+    .video-section a {
+        top: 21%;
+        left: 35%;
+    }
+
+    .video-section i {
+        font-size: 30px;
+        width: 80px;
+        height: 80px;
+        padding-top: 26px;
+
+
+    }
+
+    .content-box {
+
+        padding: 30px 15px;
+    }
+
+    .service-section {
+
+        padding: 40px 20px;
+
+    }
+    .section-about .section-text{
+        text-align: center;
+        padding: 14px 0;
+    }
+    .icon a {  
+        margin: 0px 0px;
+    }
+    .section-team-main .w-25{
+       width: 100%;
+    }
+}
 @media (max-width:320px) {
     .container {
         padding: 0 15px;
