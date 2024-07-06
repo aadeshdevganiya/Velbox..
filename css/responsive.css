@@ -187,6 +187,7 @@
 
     .w-30 {
         width: 100%;
+        gap: 25px;
     }
 
     .w-50 {
@@ -233,6 +234,14 @@
     .section-team-main .w-25{
        width: 100%;
     }
+    .div .f-60 {
+        font-size: 40px;
+        width: 85%;
+    }
+    .creative-agency {
+        padding: 0;
+        margin-bottom: 25px;
+    }
 }
 @media (max-width:320px) {
     .container {
@@ -250,6 +259,10 @@
     .w-50 {
         width: 100% ;
     }
+    .creative-agency {
+        padding: 0;
+        margin-bottom: 25px;
+    }
     .w-25{
         width: 100%;
     }
@@ -260,6 +273,10 @@
     .video-section a {
         top: 21%;
         left: 35%;
+    }
+    .div .f-60 {
+        font-size: 40px;
+        width: 85%;
     }
 
     .video-section i {
